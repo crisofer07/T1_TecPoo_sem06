@@ -24,6 +24,14 @@ public class HospitalXYZ {
         paciente1.setAlergias("mani");
         paciente1.setCorreo("alexito_uwu67@gmail.com");
         paciente1.setTelefono("987456156");
+        
+        System.out.println("Paciente Registrado: ");
+        System.out.println("Nombre: "    + paciente1.getNombreCompleto());
+        System.out.println("documento: " + paciente1.getNumeroDocumento());
+        System.out.println("Edad: "      + paciente1.getEdad());
+        System.out.println("Alergias: "  + paciente1.getAlergias()); 
+        System.out.println("Correo:"     + paciente1.getCorreo());
+             
     }
     
 }
