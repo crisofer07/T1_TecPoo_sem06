@@ -14,7 +14,16 @@ public class HospitalXYZ {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("probando clase");
+        Paciente paciente1 = new Paciente();
+        paciente1.setnombreCompleto("Alex Timana Membrillo");
+        paciente1.setTipoDocumento("DNI");
+        paciente1.setNumeroDocumento("60851516");
+        paciente1.setTEdad("18");
+        paciente1.setTipoSangre("0+");
+        paciente1.setAlergias("mani");
+        paciente1.setCorreo("alexito_uwu67@gmail.com");
+        paciente1.setTelefono("987456156");
     }
     
 }
